@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: white;
+}
+
+/* header start */
+
+header {
+    position: fixed;
+    width: 100%;
+    min-height: 65px;
+    background: #c1bfbfbf;
+    padding: 0 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999999;
+}
+
+header .logo {
+    color: black;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+header ul {
+    position: relative;
+    padding-left: 0;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+    float: left;
+}
+
+header ul li a {
+    color: black;
+    font-size: 18px;
+    font-family: system-ui;
+    padding: 22px 25px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li ul {
+    padding: 0;
+}
+
+header ul li ul li a {
+    padding: 10px;
+}
+
+header ul li a:hover {
+    background: black;
+    color: #c1bfbfbf;
+}
+
+header ul li ul {
+    position: absolute;
+    left: 0;
+    width: 180px;
+    background: #c1bfbfbf;
+    display: none;
+}
+
+header ul li:hover>ul {
+    display: block;
+}
+
+header ul li ul li {
+    position: relative;
+    width: 100%;
+}
+
+header ul li ul li ul {
+    top: 0px;
+    left: 179px;
+}
+
+/* now not it responsive */
+@media (max-width: 1022px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    header nav {
+        position: absolute;
+        width: 100%;
+        top: 65px;
+        left: 0;
+        background: #c1bfbfbf;
+        display: none;
+    }
+
+    header.active nav {
+        display: initial;
+    }
+
+    header ul li a {
+        padding: 10px;
+    }
+
+    header nav ul li {
+        width: 100%;
+    }
+
+    header nav ul li ul {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    header ul li ul li ul {
+        top: 0;
+        left: 0;
+    }
+
+    header nav ul li:hover ul li {
+        background: #c1bfbfbf;
+        border: 0;
+    }
+
+    .menuToggle {
+        position: relative;
+        width: 25px;
+        height: 40px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menuToggle::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: black;
+        transform: translateY(-10px);
+        box-shadow: 0 10px black;
+    }
+
+    .menuToggle::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: black;
+        transform: translateY(10px);
+    }
+
+    header.active .menuToggle::before {
+        transform: rotate(45deg);
+        box-shadow: 0 0 #c1bfbfbf;
+    }
+
+    header.active .menuToggle::after {
+        transform: rotate(315deg);
+    }
+
+    header ul li ul li a {
+        padding: 10px 25px;
+    }
+
+    header ul li ul li ul li a {
+        padding: 10px 35px;
+    }
+}
+
+#iconOne,
+#iconTwo {
+    font-size: 11px;
+    padding: 5px;
+}
+
+.subclass {
+    font-size: 11px;
+    padding: 6px;
+}
+
+
+/* .fa-angle-down {
+    transform: rotate(0deg);
+    transition: transform 0.2s linear;
+    cursor: pointer;
+  }
+  
+  .fa-angle-down.open {
+    transform: rotate(180deg);
+    transition: transform 0.2s linear;
+    cursor: pointer;
+  } */
+
+/* header end */
+
+
+
+/* home start */
+.carousel-item img {
+    height: 100vh;
+}
+
+@media (max-width: 850px) {
+    .carousel-item img {
+        height: 70vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .carousel-item img {
+        height: 40vh;
+    }
+
+    #carouselExampleFade {
+        padding-top: 65px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        padding-top: 65px;
+    }
+}
+
+/* home end */
+
+/* about start */
+
+.lead {
+    font-size: 17px;
+}
+
+/* about end */
+
+/* details start */
+.featureIcon{
+    width: 100px;
+    height: 90px;
+    text-align: center;
+}
+.featureTitle{
+    font-size: 20px;
+    text-align: center;
+}
+.featureDesc{
+    font-size: 16px;
+    text-align: center;
+}
+.sec-1{
+    padding: 15px 12px;
+}
+/* details end */
+
+/* product start */
+
+.sec-2{
+    width: 120px;
+    height:140px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.card{
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: black;
+    margin: 20px 10px;
+}
+/* product end */
+
+/* cart start */
+.count_flex{
+    display: flex;
+    position: relative;
+}
+.count{
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    background-color: #0d6efd;
+    border: 0px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.sec-3{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+.cartIncrement , .cartDecrement{
+    border: 1px solid silver;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+}
+.cartIncrement:hover{
+    background-color: #16ae1688;
+    transition: 0.5s;
+}
+.cartDecrement:hover{
+    background-color: #f2282888;
+    transition: 0.5s;
+}
+.productQuantity{
+    margin-bottom: 0;
+}
+/* cart end */
+
+/* register form start*/
+
+/* register form  end */
+
+
+/* login start */
+
+/* login end */

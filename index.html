@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <script src="./bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <header>
+        <a href="#" class="logo">Toasted</a>
+        <div class="menuToggle"></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li onmouseenter="document.getElementById('iconOne').classList = 'fa fa-angle-up'"
+                    onmouseleave="document.getElementById('iconOne').classList = 'fa fa-angle-down'">
+                    <a href="#">Categories <i id="iconOne" class="fa fa-angle-down"></i>
+                    </a>
+                    <ul>
+                        <li><a href="#">Mans<i class='fa fa-angle-right subclass'></i></a>
+                            <ul>
+                                <li><a href="#">Top Wear</a></li>
+                                <li><a href="#">Bottom Wear</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Ladies<i class='fa fa-angle-right subclass'></i></a>
+                            <ul>
+                                <li><a href="#">Top Wear</a></li>
+                                <li><a href="#">Bottom Wear</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Childran<i class='fa fa-angle-right subclass'></i></a>
+                            <ul>
+                                <li><a href="#">Top Wear</a></li>
+                                <li><a href="#">Bottom Wear</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li onmouseenter="document.getElementById('iconTwo').classList = 'fa fa-angle-up'"
+                    onmouseleave="document.getElementById('iconTwo').classList = 'fa fa-angle-down'">
+                    <a href="#">Our Products<i id="iconTwo" class="fa fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="#">Men Accessories <i class='fa fa-angle-right subclass'></i></a>
+                            <ul>
+                                <li><a href="#">Watches</a></li>
+                                <li><a href="#">Belts</a></li>
+                                <li><a href="#">Shoes</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Women Accessories <i class='fa fa-angle-right subclass'></i></a>
+                            <ul>
+                                <li><a href="#">Watches</a></li>
+                                <li><a href="#">Belts</a></li>
+                                <li><a href="#">Shoes</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#products">Products</a></li>
+                <li>
+                    <a href="#" class="count_flex">
+                        <span class="material-symbols-outlined">
+                            local_mall
+                        </span>
+                        <span class="count" id="count">0</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            account_circle
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- navbar end -->
+       
+    <!-- home page start -->
+    <div id="home">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/slider_1st.jpg" class="d-block w-100" alt="img1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/slider_2nd.jpg" class="d-block w-100" alt="img2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/slider_3rd.jpg" class="d-block w-100" alt="img3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- home page end -->
+
+
+    <!-- about us page start -->
+
+    <div class="container my-3 py-3" id="about">
+        <h1 class="text-center">About Us</h1>
+        <hr />
+        <p class="lead text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            facere doloremque veritatis odit similique sequi. Odit amet fuga nam
+            quam quasi facilis sed doloremque saepe sint perspiciatis explicabo
+            totam vero quas provident ipsam, veritatis nostrum velit quos
+            recusandae est mollitia esse fugit dolore laudantium. Ex vel explicabo
+            earum unde eligendi autem praesentium, doloremque distinctio nesciunt
+            porro tempore quis eaque labore voluptatibus ea necessitatibus
+            exercitationem tempora molestias. Ad consequuntur veniam sequi ullam
+            tempore vel tenetur soluta dolore sunt maxime aliquam corporis est,
+            quo saepe dolorem optio minus sint nemo totam dolorum! Reprehenderit
+            delectus expedita a alias nam recusandae illo debitis repellat libero,
+            quasi explicabo molestiae saepe, dolorem tempore itaque eveniet quam
+            dignissimos blanditiis excepturi harum numquam vel nihil? Ipsum
+        </p>
+
+        <h2 class="text-center py-4">Our Products</h2>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 mb-3 px-3">
+                <div class="card h-100">
+                    <img class="card-img-top img-fluid"
+                        src="https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="" height={160} />
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Mens's Clothing</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3 px-3">
+                <div class="card h-100">
+                    <img class="card-img-top img-fluid"
+                        src="https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="" height={160} />
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Women's Clothing</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3 px-3">
+                <div class="card h-100">
+                    <img class="card-img-top img-fluid"
+                        src="https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="" height={160} />
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Jewelery</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3 px-3">
+                <div class="card h-100">
+                    <img class="card-img-top img-fluid"
+                        src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="" height={160} />
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Electronics</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about us page end -->
+
+    <!-- details start -->
+    <div class="container">
+        <div class="row m-5">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 sec-1">
+                <div class="text-center"><img class="featureIcon" src="./img/shipping.png" alt=""></div>
+                <div class="featureTitle">FREE SHIPPING</div>
+                <div class="featureDesc">Free worldwide shipping on all orders.</div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 sec-1">
+                <div class="text-center"><img class="featureIcon" src="./img/return.png" alt=""></div>
+                <div class="featureTitle">30 DAYS RETURN</div>
+                <div class="featureDesc">No question return and easy refund in 14 days.</div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 sec-1">
+                <div class="text-center"><img class="featureIcon" src="./img/gift.png" alt=""></div>
+                <div class="featureTitle">GIFT CARDS</div>
+                <div class="featureDesc">Buy gift cards and use coupon codes easily.</div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 sec-1">
+                <div class="text-center"><img class="featureIcon" src="./img/contact.png" alt=""></div>
+                <div class="featureTitle">CONTACT US!</div>
+                <div class="featureDesc">Keep in touch via email and support system.</div>
+            </div>
+        </div>
+    </div>
+    <!-- details end -->
+
+    <!-- product page start -->
+
+    <div id="products">
+        <div class="container">
+            <h2 class="text-center py-4">Products</h2>
+            <div class="row" id="product-fetch">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- product page end -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

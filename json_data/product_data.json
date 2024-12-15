@@ -1,0 +1,93 @@
+{"products":[
+    {
+        "id" : 1,
+        "img" : "./img/man_shirt1.jpeg",
+        "title" : "Man Shirt",
+        "discription" : "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "price" : "499",
+        "Name" : "Silver shirt",
+        "Material" : "Cotton"
+    },
+    {
+        "id" : 2,
+        "img" : "./img/man_shirt2.jpeg",
+        "title" : "Man Shirt",
+        "discription" : "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "price" : "599",
+        "Name" : "Darki shirt",
+        "Material" : "Policotton"
+    },
+    {
+        "id" : 3,
+        "img" : "./img/man_shirt3.jpeg",
+        "title" : "Man Shirt",
+        "discription" : "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "price" : "559",
+        "Name" : "Pink shirt",
+        "Material" : "cotton"
+    },
+    {
+        "id" : 4,
+        "img" : "./img/man_shirt4.jpeg",
+        "title" : "Man Shirt",
+        "discription" : "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "price" : "650",
+        "Name" : "simben shirt",
+        "Material" : "Purecotton"
+    },
+    {
+        "id" : 5,
+        "img" : "./img/man_shirt5.jpeg",
+        "title" : "Man Shirt",
+        "discription" : "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "price" : "540",
+        "Name" : "Rytoon shirt",
+        "Material" : "cotton"
+    },
+    {
+        "id" : 6,
+        "img" : "./img/man_pent1.jpeg",
+        "title" : "Man Pents",
+        "discription" : "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "price" : "499",
+        "Name" : "Black Pent",
+        "Material" : "Cotton"
+    },
+    {
+        "id" : 7,
+        "img" : "./img/man_pent2.jpeg",
+        "title" : "Man Pents",
+        "discription" : "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "price" : "599",
+        "Name" : "Black Pent",
+        "Material" : "Policotton"
+    },
+    {
+        "id" : 8,
+        "img" : "./img/man_pent3.jpeg",
+        "title" : "Man Pents",
+        "discription" : "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "price" : "559",
+        "Name" : "UsPolo Pent",
+        "Material" : "cotton"
+    },
+    {
+        "id" : 9,
+        "img" : "./img/man_pent4.jpeg",
+        "title" : "Man Pents",
+        "discription" : "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "price" : "650",
+        "Name" : "simben Pent",
+        "Material" : "Purecotton"
+    },
+    {
+        "id" :  10,
+        "img" : "./img/man_pent5.jpeg",
+        "title" : "Man Pents",
+        "discription" : "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "price" : "540",
+        "Name" : "Rytoon Pent",
+        "Material" : "cotton"
+    }
+]
+}
